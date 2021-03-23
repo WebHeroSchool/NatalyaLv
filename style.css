@@ -1,3 +1,32 @@
-h1 {
+.h1 {
   font-family: "roboto", sans-serif;
+}
+.body {
+  border: dashed 1px red
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+.header {
+  border: dashed 1px red;
+}
+.main-section {
+  border: dashed 1px red;
+}
+.element.style {
+    display: block;
+    margin:0
+  }
+.logo,.menu {
+  display: inline-block;
+  border: dashed 1px red;
+}
+.logo {
+  padding: 40px 0 40px 0;
+}
+.menu-item:last-child {
+  padding-right: 0;
+  border: dashed 1px red
 }
