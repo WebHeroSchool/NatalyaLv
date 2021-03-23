@@ -2,11 +2,11 @@
   font-family: "roboto", sans-serif;
 }
 .body {
-  dashed: 1px red
+  border: dashed 1px red
 }
 .wrapper {
   margin: auto;
-  width: 80%
+  width: 80%;
   border: dashed 1px red;
 }
 .header {
@@ -16,16 +16,12 @@
   border: dashed 1px red;
 }
 .element.style {
-  body {
     display: block;
     margin:0
   }
 .logo,.menu {
   display: inline-block;
   border: dashed 1px red;
-}
-.logo {
-  margin-right: 63%;
 }
 .logo {
   padding: 40px 0 40px 0;
